@@ -1,0 +1,41 @@
+.code-block-with-filename {
+    position: relative;
+    margin: 1.5em 0;
+    padding: 2em 0 0.75em;
+    background-color: var(--vscode-editor-background, #fffdf7);
+    border-radius: 8px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(0, 0, 0, 0.12),
+        0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.code-filename {
+    position: absolute;
+    top: 0;
+    left: 1.25em;
+    transform: translateY(-50%);
+    padding: 0.3em 0.9em;
+    background-color: var(--vscode-badge-background, #f5e9c9);
+    color: var(--vscode-badge-foreground, #4a3f2b);
+    font-family: var(--vscode-editor-font-family, "SF Mono", Consolas, monospace);
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-radius: 6px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.15),
+        0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.code-block-with-filename pre {
+    margin: 0;
+    padding: 1em 1.25em;
+    background: transparent !important;
+    border-radius: 0 0 8px 8px;
+}
+
+.code-block-with-filename code {
+    background: transparent !important;
+}
